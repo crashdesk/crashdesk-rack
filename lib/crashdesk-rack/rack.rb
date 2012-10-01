@@ -23,7 +23,7 @@ module CrashdeskRack
           $stderr.puts "Backtrace: ", e.backtrace
         end
 
-        raise
+        raise exception
       end
 
       [status, headers, body]
